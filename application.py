@@ -1,3 +1,4 @@
+""" Main Method Docstring Template """
 from flask import Flask
 
 application = Flask(__name__)
@@ -5,7 +6,8 @@ application = Flask(__name__)
 
 @application.route('/')
 def hello_world():
-    return 'Hello World!'
+    """ Hello World Docstring Template """
+    return 'Hola Mundo'
 
 
 if __name__ == '__main__':
